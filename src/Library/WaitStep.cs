@@ -9,10 +9,10 @@ namespace Full_GRASP_And_SOLID
     // Agregada por OCP
     public class WaitStep : BaseStep
     {
-        public WaitStep(string descrption, int time)
+        public WaitStep(string description, int time)
             : base(time)
         {
-            this.Description = descrption;
+            this.Description = description;
         }
 
         public string Description { get; set; }
